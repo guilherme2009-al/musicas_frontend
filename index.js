@@ -14,7 +14,7 @@ async function buscarMusicas() {
                 <p class="detalhes">${musica.genero} | ${musica.ano} | ${musica.duracao} min</p>
                 <div class="acoes">
                     <a class="editar" href="editar.html?id=${musica.id}">Editar</a>
-                    <button class="apagar" onclick="apagarMusica(${musica.id})">Apagar</button>
+                    <button class="apagar">Apagar</button>
                 </div>
             </article>
         `
